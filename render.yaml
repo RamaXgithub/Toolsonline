@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: wa-bulk-checker
+    env: node
+    buildCommand: npm install
+    startCommand: node main.js
+    plan: free
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
