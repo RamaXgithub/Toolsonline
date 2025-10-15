@@ -2,9 +2,9 @@
   "name": "wa-bulk-check-business",
   "version": "1.0.0",
   "description": "Bulk WhatsApp business detector with getBusinessProfile via existing session",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node main.js"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.0.0", 
